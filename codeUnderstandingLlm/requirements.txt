@@ -1,0 +1,12 @@
+evaluate
+tqdm
+rouge-score
+peft
+openpyxl
+bitsandbytes
+flask
+#flask transformers datasets tqdm
+axios
+#npm install axios
+flask-cors
+
