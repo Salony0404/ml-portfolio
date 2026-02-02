@@ -1,0 +1,12 @@
+neo4j:
+  name: "processingpipeline-db"
+  edition: "enterprise"
+  acceptLicenseAgreement: "yes"
+  password: "processingpipeline"
+
+env:
+  NEO4J_PLUGINS: '["graph-data-science"]'
+
+config:
+  dbms.security.procedures.unrestricted: "gds.*"
+  dbms.security.procedures.allowlist: "gds.*"
